@@ -1,0 +1,121 @@
+body{
+    background-image: url("pizza.jpg");
+    background-attachment: scroll;
+    background-repeat: none;
+    background-size: cover;
+    margin: 15px 30px;
+}
+
+header p{
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    background-color: rgba(137, 43, 226, 0.422);
+    border: 10px solid rgba(153, 69, 4, 0.233)
+}
+
+a.active, a:hover{
+    background: crimson;
+    transition: inherit;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-underline-offset: none;
+    border-radius: 3px;
+    padding: 7px 13px;
+    inline-size: auto;
+}
+nav ul li{
+    display: inline-block;
+}
+
+nav{
+    background-color: rgba(153, 50, 204, 0.47);
+    overflow: hidden;
+    padding: 20px;
+    margin: 10px;
+    border: 10px solid rgba(153, 69, 4, 0.233)
+}
+
+table{
+    font-size: x-large;
+    color: white;
+}
+
+table,th,td,tr{
+    border: 2px solid blueviolet;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+th{
+    background-color: rgba(23, 210, 89, 0.333);
+}
+
+td{
+    background-color: rgba(255, 99, 71, 0.324);
+}
+
+h1.order{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    background: rgba(137, 43, 226, 0.365);
+    padding: 20px;
+    margin: 15px;
+}
+
+p.information{
+    font-style: inherit;
+    text-decoration: solid;
+    text-align: center;
+    font-size: 200%;
+    background-position: center;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+form{
+    color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    border: 20px;
+    font-size: larger;
+    display: inline-flexbox;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgba(137, 43, 226, 0.368);
+    padding: 10px 20px 15px 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+input[type="name"],
+input[type="number"],
+input[type="email"],
+input[type="area"],
+input[type="textarea"]
+{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 128, 0, 0.539);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: red;
+}

@@ -1,0 +1,65 @@
+ul{
+    list-style: none;
+    list-style-type: none;
+    color: blue;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+body{
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+nav{
+    background: rgba(184, 42, 42, 0.582);
+    height: 70px;
+    width: 100%;
+}
+
+nav.logo{
+    color: whitesmoke;
+    padding: 0 100px;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: bold;
+    font-family: Niconne, cursive;
+}
+
+nav ul{
+    margin-right: 20px;
+    float: right;
+}
+
+body nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-underline-offset: none;
+    border-radius: 3px;
+    padding: 7px 13px;
+}
+
+body{
+    background-image: url("burger.jpg");
+    background-attachment: scroll;
+}
+a.active, a:hover{
+    background: chocolate;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+h3{
+    color: darkmagenta;
+    margin: 0 10px;
+    padding: 20px;
+    text-align: left;
+}
